@@ -1,0 +1,85 @@
+@font-face {
+    font-family: 'Bebas';
+    src: url("../assets/fonts/Bebas_Neue/BebasNeue-Regular.ttf"), format('truetype');
+}
+
+@font-face {
+    font-family: 'Oswald';
+    src: url("../assets/fonts/Oswald/Oswald-VariableFont_wght.ttf"), format('truetype');
+}
+
+section{
+    align-items: baseline;
+    justify-content: center;
+}
+
+h1{
+    font-family: 'Cuprum';
+    font-size: 45px;
+    font-weight: 50;
+    color: white;
+    margin-top: 10px;
+}
+
+p{
+    font-family: 'Oswald';
+    font-size: 15.6px;
+    font-weight: 50;
+    color: white;
+    margin-top: -50px;
+}
+
+.panelvid{
+    width: 300px;
+    height: 300px;
+    margin-top: -100px;
+    background-color: rgb(165, 141, 0);
+    border-radius: 20px;
+}
+
+.ulvid{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    margin-right: -46px;
+}
+
+.avid{
+    width: 80px;
+    height: 80px;
+    margin: 6px;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#ico1{
+    background-image: url('../assets/images/videos/basic.png');
+}
+
+#ico2{
+    background-image: url('../assets/images/videos/ecuations.png');
+}
+
+#ico3{
+    background-image: url('../assets/images/videos/trigonometrics.png');
+}
+
+#ico4{
+    background-image: url('../assets/images/videos/geometric.png');
+}
+
+#ico5{
+    background-image: url('../assets/images/videos/funciones.png');
+}
+
+#ico6{
+    background-image: url('../assets/images/videos/derivatics.png');
+}
+
+
+
+
+

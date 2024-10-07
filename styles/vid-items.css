@@ -1,0 +1,38 @@
+nav{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(165, 141, 0);
+    color: white;
+    padding: 10px;
+    z-index: 1000; 
+}
+
+nav ul{
+    padding-top: 3px;
+}
+
+section{
+    height: 2300px;
+    background-image: none;
+}
+
+.panel-vids{
+    display: grid;
+}
+
+.video-area{
+    margin-top: -180px;
+}
+
+iframe{
+    width: 350px;
+    height: 300px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.nav-video{
+    margin-top: -1490px;
+}
